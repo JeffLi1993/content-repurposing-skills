@@ -200,20 +200,48 @@ native post from a real operator, not a blog summary.
 
 ### 7. Design The Visual
 
-Design one primary X-native information graphic. The best Twitter/X visual is
-not a good-looking image; it is a repostable or saveable information asset.
-Do not choose visual style first. Decide the visual job, then the information
-structure, then the visual style.
+Design one primary X-native point-of-view graphic. The best Twitter/X visual is
+not a good-looking image or a blog summary; it is a visual argument that makes
+one repostable idea instantly obvious. The image should do what text alone
+cannot: show the core insight at a glance.
+
+Do not choose visual style first. Decide the repostable point, then the visual
+argument, then the information structure, then the visual style.
+
+Before designing, the visual must pass the Repost Test:
+
+- Would someone repost this because it expresses a sharp, useful, or clarifying
+  point they want to be associated with?
+- Can the viewer understand the point without reading the full post?
+- Does the image show the idea rather than merely decorate or summarize it?
+
+If the answer is no, redesign the visual concept before choosing colors,
+icons, or layout.
+
+The visual must also pass the Information Test:
+
+- Does the image contain enough substance to reward a pause, not just a big
+  slogan?
+- Is there at least one supporting layer beneath the headline, such as a
+  decision rule, contrast, proof point, failure mode, workflow step, or example?
+- Could the viewer use the image to explain the idea to someone else?
+
+If the answer is no, add a compact supporting layer. A repostable X visual
+should feel sharp, not thin. The default target is medium information density:
+one viewpoint headline plus 3-6 meaningful content units. Do not confuse
+70% visual argument / 30% text with low information.
 
 First choose exactly 1 visual job:
 
 | Visual job | Use when | Goal |
 |---|---|---|
-| Stop scroll | The article has a sharp judgment, contrarian angle, or timely trend bridge. | Make the feed reader pause. |
-| Explain | The article has a framework, workflow, concept, or decision process. | Make the idea instantly understandable. |
-| Save | The article has steps, a checklist, roadmap, template, or repeatable method. | Make the image worth bookmarking. |
+| Declare | The article has a sharp judgment, contrarian angle, category belief, or timely trend bridge. | Make the reader want to repost the point of view. |
+| Reveal | The article exposes a hidden tradeoff, mistake, misconception, or overlooked pattern. | Make the reader feel "that explains it." |
+| Contrast | The article compares old vs new, common vs better, hype vs reality, or wrong vs right. | Make the insight visually undeniable. |
+| Clarify | The article has a framework, workflow, concept, or decision process. | Make the idea instantly understandable. |
+| Equip | The article has steps, a checklist, roadmap, template, or repeatable method. | Make the image useful enough to save without losing the point of view. |
 | Prove | The article has source-backed data, screenshots, before/after evidence, or concrete results. | Increase credibility without overclaiming. |
-| Identity | The article has a founder lesson, builder story, operating belief, or personal field note. | Reinforce the account's expert/operator voice. |
+| Signal Identity | The article has a founder lesson, builder story, operating belief, or personal field note. | Express a belief the target audience wants to stand behind. |
 
 Then choose exactly 1 information structure:
 
@@ -230,39 +258,74 @@ Then choose exactly 1 information structure:
 | Founder/building story, lesson, field note, or hard-earned principle | Founder Note |
 | X trend connected to the article's core insight | Trend Bridge Card |
 
-Then choose a visual style that serves the structure:
+The structure must express a point of view, not list article sections. For
+example, prefer "Old way vs better way", "The hidden bottleneck", "What actually
+matters", "The decision rule", or "The mistake pattern" over neutral labels like
+"Key takeaways" or "Main benefits".
+
+Make the structure sharp by using tension-bearing labels. Prefer symptom ->
+decision rule, old belief -> better belief, failure mode -> fix, or wrong
+question -> better question. Avoid generic neutral labels unless they are needed
+for clarity.
+
+Then choose a visual style that serves the structure. Prefer modern,
+tech-forward information design over sketch, whiteboard, or doodle aesthetics
+unless the user explicitly asks for a hand-drawn look.
 
 | Visual style | Best for |
 |---|---|
-| Hand-drawn sketch | Founder lessons, judgments, simple methods, human-feeling notes. |
-| Doodle diagram | Frameworks, roadmaps, workflows, and saveable educational posts. |
-| Whiteboard style | Builder, SaaS, developer, and operator explanations. |
-| Sticky note board | Prioritization, planning, retrospectives, checklists, and roadmap content. |
-| Blueprint style | Product architecture, systems, workflow, and technical process posts. |
+| Modern flat infographic | Frameworks, roadmaps, workflows, comparisons, and saveable educational posts. |
+| Editorial tech poster | Strong point of view, market belief, trend commentary, or one-line thesis. |
+| Clean decision diagram | Decision processes, branching logic, and "when to use what" ideas. |
+| Analytical data card | Verified numbers, benchmarks, constraints, comparisons, or article evidence. |
+| Product system map | Product architecture, systems, workflow, and technical process posts. |
 | Annotated screenshot | Real product, tool, workflow, or UI evidence from the article. |
-| Editorial poster | Strong point of view, market belief, trend commentary, or one-line thesis. |
-| Data card | Verified numbers, benchmarks, constraints, comparisons, or article evidence. |
 | Minimal typographic card | One unusually strong source-backed soul quote. |
-| Comic strip or micro story | Founder story, mistake, turnaround, or lesson with a clear narrative arc. |
+| Founder note card | Founder story, mistake, turnaround, or lesson with a clear narrative arc. |
 
 Default preference:
 
-Use a hand-drawn doodle, whiteboard-style framework, roadmap, decision tree, or
-workflow diagram when the article contains a method, framework, decision process,
-founder lesson, or builder insight. These formats are usually stronger on X
-because they are readable, saveable, and feel human.
+Use a modern flat infographic, clean decision diagram, product system map,
+editorial tech poster, analytical data card, or minimal typographic card. The
+image should feel like a polished editorial asset for X: clean layout,
+confident spacing, geometric sans-serif typography, crisp vector-like icons,
+and 70% visual argument / 30% text.
+
+Visual design baseline:
+
+- Use a bright, non-gray background: off-white to pale blue, light lilac, soft
+  mint, or very subtle warm neutral gradient.
+- Use 1-2 accent colors only, such as electric blue, coral, mint, violet, or
+  amber. Avoid muddy palettes and low-contrast gray-on-gray layouts.
+- Use crisp geometric sans-serif typography. Avoid handwritten, marker,
+  sketch, comic, chalkboard, or casual script fonts.
+- Use clean icons, simple shapes, dividers, charts, arrows, or cards with
+  restrained radius. Avoid cartoon boxes, uneven hand-drawn outlines, doodle
+  arrows, fake marker strokes, and excessive illustration.
+- Keep composition balanced: one clear viewpoint headline, one dominant visual
+  metaphor, 3-6 supporting labels or decision points, generous margins, and
+  strong mobile readability.
+- The final image should look like a modern product/design team infographic,
+  not a classroom whiteboard or notebook sketch.
+- Do not include logos, CTAs, button-like footer pills, or action labels such as
+  "Try it", "Use this", "Get started", "Learn more", or "Workflow fit". Footer
+  bars are allowed only when they state the thesis or final contrast, not when
+  they look clickable.
 
 Use safe default X image specs:
 
 - Single-image post: 1200 x 1200 for square or 1200 x 628 for landscape.
 - Prefer 1200 x 1200 for saveable diagrams and 1200 x 628 for editorial posters
   or trend cards.
-- Keep image text short: 1 headline and 3-5 labels max.
+- Keep image text short: 1 headline, optional subhead, and 3-6 meaningful
+  labels or decision points max.
 - Make all text readable on mobile.
-- Use one visual idea only.
+- Use one visual idea only. Do not summarize multiple article points.
 - Avoid tiny text, clutter, generic stock imagery, abstract AI art, fake
   dashboards, fake UI, unsupported data, and decorative visuals that do not
   improve repost or save value.
+- Avoid gray backgrounds, thick black outlines
+  whiteboard styling, emoji-heavy labels, and illegible decorative fonts.
 - Do not invent screenshots, metrics, customer proof, UI states, logos, or
   product results. If using data, use only numbers explicitly present in the
   article.
