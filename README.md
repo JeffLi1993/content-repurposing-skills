@@ -1,4 +1,6 @@
-# Content Repurposing Skills **English** | [Chinese](README.zh.md)
+# Content Repurposing Skills
+
+[中文版本](README.zh.md)
 
 Reusable Agent Skills for turning long-form blog articles into platform-native
 social posts. Give it a real article - get a sharp Twitter/X or LinkedIn post,

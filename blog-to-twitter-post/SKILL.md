@@ -338,18 +338,29 @@ Before output, verify:
 
 Use this structure. Keep the final response concise but complete.
 
+The final answer must be publishable-output first. The user should see the post
+copy and the primary image before reading any reasoning, source summary, visual
+specification, or trend notes.
+
+Output-order rules:
+
+- Start with the recommended post copy.
+- Put the generated image immediately after the post copy when an image was
+  generated. If no image was generated, put the image prompt immediately after
+  the post copy.
+- If an image tool returns an actual image, embed or show that image in the
+  `Generated Image:` field. Do not defer it to the bottom of the answer.
+- Put character check, CTA, and hashtag near the post, because they affect
+  publishing.
+- Put explanation, source summary, visual specification, and trend sources after
+  the publishable assets.
+- Do not lead with `Source Summary`.
+- Do not make the user scroll past rationale before reaching `Post:`.
+- Keep internal scoring, private source maps, and private trend-fit tables out
+  of the final answer.
+
 ```markdown
 # Blog to Twitter/X Post Output
-
-## Source Summary
-Topic:
-Audience:
-Core Insight:
-Primary Soul Quote:
-Quote Type: Direct quote / Derived line
-Best Twitter/X Angle:
-Trend Adaptation: Used / Not used
-Platform Rule Check:
 
 ## Recommended To Publish
 Style:
@@ -358,6 +369,25 @@ Post:
 Character Check:
 CTA:
 Hashtag:
+
+## Image
+Generated Image:
+Image Prompt:
+Alt Text:
+
+## Why This Works
+Publishing Rationale:
+Source Fidelity Note:
+Trend Adaptation: Used / Not used
+
+## Source Summary
+Topic:
+Audience:
+Core Insight:
+Primary Soul Quote:
+Quote Type: Direct quote / Derived line
+Best Twitter/X Angle:
+Platform Rule Check:
 
 ## Visual
 Visual Job:
@@ -369,8 +399,6 @@ Layout:
 Key Elements:
 Color Direction:
 Do Not Include:
-Alt Text:
-Image Prompt or Generated Image:
 
 ## Trend Sources
 - Source:
