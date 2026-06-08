@@ -31,7 +31,8 @@ Use $blog-to-twitter-post.
 
 | Twitter/X 视觉示例 | LinkedIn 视觉示例 | Skill 定位视觉示例 |
 |---|---|---|
-| ![Twitter/X social visual demo](assets/demo-1.png) | ![LinkedIn social visual demo](assets/demo-2.png) | ![Content repurposing skill demo](assets/demo-3.png) |
+| ![Twitter/X social visual demo](assets/demo-1.jpg) | ![LinkedIn social visual demo](assets/demo-2.jpg) | ![Content repurposing skill demo](assets/demo-3.jpg) |
+| ![Twitter/X visual prompt demo](assets/demo-4.jpg) | ![LinkedIn visual prompt demo](assets/demo-5.jpg) |  |
 
 ---
 
@@ -92,9 +93,11 @@ content-repurposing-skills/
 |   `-- references/
 |       `-- platform-rules.md
 |-- assets/
-|   |-- demo-1.png
-|   |-- demo-2.png
-|   `-- demo-3.png
+|   |-- demo-1.jpg
+|   |-- demo-2.jpg
+|   |-- demo-3.jpg
+|   |-- demo-4.jpg
+|   `-- demo-5.jpg
 |-- skills-lock.json
 |-- README.md
 `-- README.zh.md
