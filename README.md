@@ -41,6 +41,10 @@ Audience: Indie Hacker
 
 ---
 
+## Optional X/Twitter Research Companion
+
+Hermes Agent users who need current X/Twitter context before repurposing can pair these skills with [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet). Use Hermes Tweet for X search, account context, monitoring, follower exports, and approval-gated drafts, then use the repurposing skills to turn source material into platform-native posts.
+
 ## Skills
 
 | Skill | Platform | When to use |
