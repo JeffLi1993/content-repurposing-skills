@@ -9,7 +9,7 @@ description: >-
   exposure from a blog.
 metadata:
   author: Jeff
-  version: "1.0"
+  version: "1.1"
 ---
 
 # blog-to-twitter-post
@@ -69,9 +69,28 @@ Build a private source map before writing:
 | Contrarian edge | What challenges common thinking. |
 | Evidence | Real examples, data, steps, errors, screenshots, or constraints from the article. |
 | Best social angle | The one idea most likely to travel on X. |
+| Reader action | What the reader can do, try, save, or forward after reading. |
 | Risk boundary | What must not be overstated. |
 
-### 3. Identify The Soul Quote
+### 3. Apply The X Growth Playbook
+
+Before choosing the angle or drafting, read
+`references/x-growth-playbook.md` and apply its fixed check sequence. Keep the
+results private unless the output template asks for them.
+
+The playbook must determine:
+
+- The X growth archetype.
+- The reader action.
+- Which step the post helps the reader save: search, understanding, trial and
+  error, or expression.
+- Which evidence is available: visible proof, clickable path, or measurable
+  detail.
+- Why the post is worth saving or reposting.
+
+Do not turn the playbook into extra prose. Use it as a decision filter.
+
+### 4. Identify The Soul Quote
 
 Find 5-8 candidate golden quotes from the article. A candidate can be:
 
@@ -95,7 +114,7 @@ Select 1 primary soul quote and 1 backup. Label direct source quotes as
 Do not place quotation marks around a line unless it appears verbatim in the
 article.
 
-### 4. Refresh X Rules And Current Knowledge
+### 5. Refresh X Rules And Current Knowledge
 
 Before finalizing, check `references/platform-rules.md`. If browsing is
 available, refresh official X sources because platform limits and recommendation
@@ -114,7 +133,7 @@ Default to a standard public post, not a Premium long-form post. Keep the final
 post within the current standard character limit unless the user explicitly
 asks for a thread or long-form post.
 
-### 5. Scan X Trending Opportunities
+### 6. Scan X Trending Opportunities
 
 If browsing is available, use the article spine as the trend query basis:
 Topic, audience pain, category, target audience, key nouns, entities, tools,
@@ -159,20 +178,23 @@ Rules:
 - If browsing is unavailable, say that live trend adaptation could not be
   verified and produce an evergreen version.
 
-### 6. Choose The Twitter/X Angle
+### 7. Choose The Twitter/X Angle
 
 Choose the primary publishable angle from the article itself. Do not default to
 three equal styles and leave the user to decide. The skill must make the
 editorial judgment.
 
-Use the article spine, soul quote, evidence type, audience pain, and trend bridge
-to decide the strongest angle:
+Use the article spine, soul quote, evidence type, audience pain, trend bridge,
+and X growth playbook result to decide the strongest angle:
 
 | Source signal | Prefer this angle |
 |---|---|
+| Hard-to-find source, directory, collection, link, template, or research path | Resource entry |
+| Tool workflow, setup, usage path, prompt, checklist, or beginner-friendly guide | Tool tutorial |
+| New AI tool, feature, capability, integration, or concrete task demo | Tool discovery |
+| Repeatable method, checklist, framework, decision process, common error pattern | Method steps |
 | Strong judgment, contrarian lesson, market belief, founder mistake, strategic shift | Founder style |
 | Product build, workflow change, first version, experiment, implementation detail, tool stack | Builder style |
-| Repeatable method, checklist, framework, decision process, common error pattern | Practical tips style |
 | Data point, benchmark, before/after result, measurable constraint | Evidence-led insight |
 | Timely X trend with a strong bridge to the article pain | Trend-anchored point of view |
 
@@ -191,14 +213,18 @@ Internal selection rules:
 
 Possible style expressions:
 
-1. Founder style: judgment, lesson, market belief, or hard-earned insight.
-2. Builder style: what was built, why it matters, first version, what changed.
-3. Practical tips style: problem, method, steps, conclusion.
+1. Resource entry: value promise, why it is hard to find, path or entry point,
+   and save reason.
+2. Tool tutorial: practical scenario, steps, proof, and next action.
+3. Tool discovery: concrete task, visible result, who should try it, and entry.
+4. Method steps: problem, fixed sequence, evidence, and takeaway.
+5. Founder style: judgment, lesson, market belief, or hard-earned insight.
+6. Builder style: what was built, why it matters, first version, what changed.
 
 The post must have one core idea only. A good post should feel like a
 native post from a real operator, not a blog summary.
 
-### 7. Design The Social Visual
+### 8. Design The Social Visual
 
 Create one primary social media visual for X/Twitter. The visual must turn the
 article's strongest idea into one clear visual argument. Do not summarize the
@@ -334,18 +360,24 @@ structure, visual metaphor, visual skin, layout, exact image copy, key elements,
 color direction, size, and negative constraints. Never claim an image was
 generated when it was only specified.
 
-### 8. Draft The Post
+### 9. Draft The Post
 
 Writing rules:
 
 - First line must create curiosity, tension, or a strong point of view.
-- Keep the post short enough to read without expanding when possible.
+- Keep the post short enough to read without expanding when possible. For
+  Chinese posts, prefer a complete 120-220 CJK-character loop when the source
+  supports it.
 - Use the soul quote as the spine, not as decoration.
 - Do not write a full article recap.
 - Do not use corporate marketing voice.
 - Do not overuse hashtags. Use 0-2 hashtags only when they are natural.
 - Do not invent statistics, customer stories, screenshots, or product results.
 - If using a URL, account for URL character counting and keep the copy tight.
+- Translate announcements into help, capabilities into usage scenarios, and
+  conclusions into evidence.
+- Prefer steps, entry points, screenshots, numbers, examples, or concrete use
+  cases over broad opinion.
 - Chinese must be conversational, specific, and judgment-led.
 - English must sound like native founder/SaaS/operator writing, not translation.
 
@@ -378,7 +410,7 @@ Method
 Conclusion
 ```
 
-### 9. Run Quality Gates
+### 10. Run Quality Gates
 
 Before output, verify:
 
@@ -387,6 +419,10 @@ Before output, verify:
 - Character fit: standard post stays within current X character rules.
 - Hook strength: first line can stand alone in feed.
 - Trend fit: trend is recent, cited, and genuinely connected.
+- X growth playbook: archetype, reader action, saved step, evidence type, and
+  save/repost reason are clear.
+- Utility translation: the post explains what the reader can do, not only what
+  the article says.
 - Visual value: visual reinforces the exact post angle and is worth saving or
   reposting as a standalone information asset.
 - Exposure design: the post invites replies, saves, reposts, or profile clicks
@@ -423,6 +459,7 @@ Output-order rules:
 ## Recommended To Publish
 Style:
 Content Angle:
+X Growth Archetype:
 Post:
 Character Check:
 CTA:
@@ -435,6 +472,8 @@ Alt Text:
 
 ## Why This Works
 Publishing Rationale:
+Reader Action:
+Save/Repost Reason:
 Source Fidelity Note:
 Trend Adaptation: Used / Not used
 
@@ -445,6 +484,7 @@ Core Insight:
 Primary Soul Quote:
 Quote Type: Direct quote / Derived line
 Best Twitter/X Angle:
+Evidence Used:
 Platform Rule Check:
 
 ## Visual

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Long Blog to Viral Social Posts"
+  short_description: "Turn one long blog into three platform-native viral posts"
+  default_prompt: "Use $long-blog-to-viral-social-posts to turn this long-form article into three differentiated LinkedIn and X posts with first-comment CTAs."
